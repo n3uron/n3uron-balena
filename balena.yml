@@ -16,6 +16,8 @@ assets:
       url: >-
         https://raw.githubusercontent.com/n3uroniiot/n3uron-balena/main/logo.png
 data:
+  applicationEnvironmentVariables:
+    - HOSTNAME: balena-edge01
   defaultDeviceType: raspberrypi4-64
   supportedDeviceTypes:
     - raspberrypi3
