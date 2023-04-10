@@ -14,7 +14,7 @@ assets:
     type: blob.asset
     data:
       url: >-
-        https://raw.githubusercontent.com/n3uroniiot/n3uron-balena/main/logo.png
+        https://raw.githubusercontent.com/n3uron/n3uron-balena/main/logo.png
 data:
   applicationEnvironmentVariables:
     - HOSTNAME: balena-edge01
