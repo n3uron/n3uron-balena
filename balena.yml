@@ -9,7 +9,7 @@ assets:
   repository:
     type: blob.asset
     data:
-      url: https://github.com/n3uroniiot/n3uron-balena
+      url: https://github.com/n3uron/n3uron-balena
   logo:
     type: blob.asset
     data:
