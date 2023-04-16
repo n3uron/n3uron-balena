@@ -2,7 +2,7 @@ name: N3uron Industrial IoT Platform
 type: sw.application
 
 description: >-
-  N3uron Industrial IoT Platform
+  N3uron Industrial IoT Platform.
 
 post-provisioning: >-
   N3uron is an Industrial Edge Platform for DataOps that streamlines the flow of data between industrial devices
