@@ -4,14 +4,15 @@ services:
   n3uron:
     build: .
     ports:
-      - "80:8003"
+      - "80:8003"  # HTTP WebUI
+      - "443:8443" # HTTPS WebUI
     environment:
       - HOSTNAME=balena01
     volumes:
-      - config:/opt/n3uron/config
-      - data:/opt/n3uron/data
-      - licenses:/opt/n3uron/licenses
-      - log:/opt/n3uron/log
+      - config:/opt/n3uron/config      # Persist configuration
+      - data:/opt/n3uron/data          # Persist data
+      - licenses:/opt/n3uron/licenses  # Persist N3uron licenses
+      - log:/opt/n3uron/log            # Persist logs
     cap_add:
       - SYS_ADMIN
     restart: always
