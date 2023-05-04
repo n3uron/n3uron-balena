@@ -4,8 +4,9 @@ services:
   n3uron:
     build: .
     ports:
-      - "80:8003"  # HTTP WebUI
-      - "443:8443" # HTTPS WebUI
+      - 80:8003   # HTTP WebUI
+      - 443:8443  # HTTPS WebUI
+      - 3001:3001 # Inbound Links
     environment:
       - HOSTNAME=balena01
     volumes:
