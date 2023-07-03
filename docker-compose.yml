@@ -6,6 +6,7 @@ services:
     ports:
       - 8003:8003  # HTTP WebUI
       - 8443:8443  # HTTPS WebUI
+      - 80:8003    # HTTP WebUI for balena's Public Device URL feature
       - 8004:8004  # HTTP WebVision
       - 8444:8444  # HTTPS WebVision
       - 3001:3001  # Inbound Links
