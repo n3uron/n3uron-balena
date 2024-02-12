@@ -1,8 +1,8 @@
-version: '2'
+version: "2"
 
 services:
   n3uron:
-    build: .
+    image: n3uronhub/n3uron:v1.21.7
     ports:
       - 80:8003    # HTTP WebUI for balena's Public Device URL feature
       - 8003:8003  # HTTP WebUI
