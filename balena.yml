@@ -28,6 +28,9 @@ data:
     - raspberrypi3
     - raspberrypi3-64
     - raspberrypi4-64
+    - raspberrypi400-64
+    - raspberrypicm4-ioboard
+    - raspberrypi5
     - generic-aarch64
     - generic-amd64
     - genericx86-64-ext
