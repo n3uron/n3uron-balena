@@ -3,13 +3,15 @@ type: sw.application
 version: 1.21.11
 
 description: >-
-  N3uron Industrial IoT Platform.
+  N3uron Industrial IoT & DataOps Platform
 
 post-provisioning: >-
   N3uron is an Industrial Edge Platform for DataOps that streamlines the flow of data between industrial devices
   and business applications, either on-premise or in the cloud. N3uron provides an out-of-the-box solution for
   data standardization, normalization and contextualization, seamless integration with industrial and IT systems,
   efficient information management, and unparalleled scalability and security.
+
+releaseNotes: https://n3uron.com/releasenotes-v121/
 
 assets:
   repository:
