@@ -1,6 +1,6 @@
 name: N3uron Industrial IoT Platform
 type: sw.application
-version: 1.21.13
+version: 1.22.0
 
 description: >-
   N3uron Industrial IoT & DataOps Platform
@@ -11,7 +11,7 @@ post-provisioning: >-
   data standardization, normalization and contextualization, seamless integration with industrial and IT systems,
   efficient information management, and unparalleled scalability and security.
 
-releaseNotes: https://n3uron.com/releasenotes-v121/
+releaseNotes: https://n3uron.com/releasenotes-v122/
 
 assets:
   repository:
@@ -29,11 +29,9 @@ data:
     - USER_PASSWORD: n3uron
   defaultDeviceType: raspberrypi4-64
   supportedDeviceTypes:
-    - raspberrypi3
     - raspberrypi3-64
     - raspberrypi4-64
     - raspberrypi400-64
-    - raspberrypicm4-ioboard
     - raspberrypi5
     - generic-aarch64
     - generic-amd64
